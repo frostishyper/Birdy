@@ -14,6 +14,9 @@ public class LOGICSCRIPT : MonoBehaviour
     public void addScore(int scoreToAdd) {
         playerScore = playerScore + scoreToAdd;
         scoreText.text = playerScore.ToString();
+            if (playerScore == 0) {
+                scoreText.enabled = false;
+            }
     }
     public  void Retry() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
