@@ -1006,7 +1006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: {fileID: 780213516}
-  clip: {fileID: 8300000, guid: 5015a1dab13d98c4683f4bb9acdd2060, type: 3}
+  clip: {fileID: 8300000, guid: e39231f43e7b398439ec58d298dc910a, type: 3}
 --- !u!1 &1092332553
 GameObject:
   m_ObjectHideFlags: 0
